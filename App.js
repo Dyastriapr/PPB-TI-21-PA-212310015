@@ -37,7 +37,7 @@ export default function App() {
 
 
         <View >
-          <View style={{alignItems:'center' , marginTop : 40 , flexDirection : 'row' }}>
+          <View style={{alignItems:'center' , marginTop : 10 , flexDirection : 'row' }}>
           <Image source={require('./assets/whatsapp.png')} style={{ width :20 , height :20}} />
         <Text> +6283879631235 </Text>
         
