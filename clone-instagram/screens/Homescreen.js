@@ -9,18 +9,19 @@ import { Feed } from '../data/Feed';
 const Homescreen = () => {
     return (
         <SafeAreaView style={styles.container}>
+            <ScrollView>
             <View>
             <View><Head /></View>
             <View>  <Story /> </View>
 
 
-            <ScrollView> 
+             
                 {Feed.map((post , index)=> (
 
                 <Post post={post} key={index}/> 
 
                 ))}
-            </ScrollView>
+           
             </View>
 
         
@@ -28,7 +29,7 @@ const Homescreen = () => {
           
           
            
-
+            </ScrollView>
         </SafeAreaView>
     );
 }

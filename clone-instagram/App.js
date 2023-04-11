@@ -3,14 +3,19 @@ import { StyleSheet, Text, View } from 'react-native';
 import Tabs from './navigation/BottomTab';
 import Homescreen from './screens/Homescreen';
 import { NavigationContainer } from '@react-navigation/native';
+import Login from './screens/Login';
 
 export default function App() {
   return (
-    // <NavigationContainer>
-    //   <Tabs />
-    // </NavigationContainer>
-
-    <Homescreen />
+    // <Login />
+    
+       <NavigationContainer>
+      <Tabs />
+    </NavigationContainer>
+  
+  
+   
+    
   
  
   )
