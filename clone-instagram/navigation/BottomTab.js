@@ -10,7 +10,7 @@ const Tabs = () => {
     return(
 
     
-        <Tab.Navigator   >
+        <Tab.Navigator>
             <Tab.Screen  name="Home" component={Homescreen}/>
             <Tab.Screen  name="Search" component={Searchscreen}/>
         </Tab.Navigator>
